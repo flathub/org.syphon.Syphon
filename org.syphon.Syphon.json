@@ -50,7 +50,7 @@
             "buildsystem": "simple",
             "only-arches": [
                 "x86_64",
-                "arm64"
+                "aarch64"
             ],
             "build-commands": [
                 "mv syphon /app/syphon",
@@ -83,7 +83,7 @@
                 {
                     "type": "archive",
                     "only-arches": [
-                        "arm64"
+                        "aarch64"
                     ],
                     "url": "https://github.com/syphon-org/syphon/releases/download/0.2.14/syphon.linux.0.2.14.arm64.tar.gz",
                     "dest": "syphon",
