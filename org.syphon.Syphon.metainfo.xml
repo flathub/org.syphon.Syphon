@@ -2,28 +2,29 @@
 <component type="desktop-application">
   <id>org.syphon.Syphon</id>
   <name>Syphon</name>
-  <summary>chat with your privacy and freedom intact</summary>
+  <summary>Chat with your privacy and freedom intact</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>AGPL-3.0-or-later</project_license>
-  <url type="homepage">https://syphon.org/</url>
+  <url type="homepage">https://syphon.org</url>
   <url type="help">https://syphon.org/support</url>
   <url type="translate">https://hosted.weblate.org/projects/syphon/syphon/</url>
+  <url type="vcs-browser">https://github.com/syphon-org/syphon/</url>
+  <url type="contact">https://matrix.to/#/#syphon-space:matrix.org</url>
   <recommends>
     <control>pointing</control>
     <control>keyboard</control>
     <control>touch</control>
   </recommends>
-  <developer_name>Syphon Organization, LLC</developer_name>
+  <developer id="org.syphon">
+    <name>Syphon Organization, LLC</name>
+  </developer>
   <description>
-    <p>Syphon aims to be built on the foundations of privacy, branding, and user experience in an effort to pull others away from proprietary chat clients to the matrix protocol.</p>
-
-    <p>Website: https://syphon.org</p>
-    <p>Source Code: https://github.com/syphon-org/syphon</p>
-    <p>Matrix Space: https://matrix.to/#/#syphon-space:matrix.org</p>
+    <p>Syphon aims to be built on the foundations of privacy, branding, and user experience
+      in an effort to pull others away from proprietary chat clients to the matrix protocol.</p>
   </description>
   <screenshots>
-    <screenshot>
-      <image type="source">https://matrix.org/docs/projects/images/syphon.png</image>
+    <screenshot type="default">
+      <image type="source">https://dl.flathub.org/repo/screenshots/org.syphon.Syphon-stable/1504x846/org.syphon.Syphon-ab5bd45d76e9b757cd84e21927601e62.png</image>
     </screenshot>
   </screenshots>
   <launchable type="desktop-id">org.syphon.Syphon.desktop</launchable>
