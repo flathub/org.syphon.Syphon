@@ -1,7 +1,7 @@
 {
     "app-id": "org.syphon.Syphon",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "command": "syphon",
     "separate-locales": false,
@@ -37,6 +37,7 @@
         {
             "name": "olm",
             "buildsystem": "cmake-ninja",
+            "config-opts": [ "-DCMAKE_POLICY_VERSION_MINIMUM=3.5" ],
             "sources": [
                 {
                     "type": "git",
