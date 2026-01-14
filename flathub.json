@@ -3,5 +3,6 @@
     "x86_64",
     "aarch64"
   ],
-  "automerge-flathubbot-prs": false
+  "automerge-flathubbot-prs": false,
+  "end-of-life": "This application is no longer maintained."
 }
